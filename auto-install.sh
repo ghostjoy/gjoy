@@ -1,1 +1,1 @@
-git clone git://github.com/ghostjoy/gjoy.git ~/
+git clone git://github.com/ghostjoy/gjoy.git ~/gjoy
