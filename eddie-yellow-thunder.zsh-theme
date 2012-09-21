@@ -1,11 +1,11 @@
 # change your machine name
- MACHINE="atom"
+ MACHINE="semantic"
 
  function collapse_pwd {
    echo $(pwd | sed -e "s,^$HOME,~,")
    }
 
-   PROMPT='%{$fg_bold[yellow]%}%n %{$fg_bold[green]%}(@$MACHINE) ⚡%{$fg_bold[green]%}%p %{$fg[cyan]%}$(collapse_pwd) %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
+   PROMPT='%{$fg_bold[yellow]%}%n %{$fg_bold[green]%}(@$MACHINE) %{$fg_bold[green]%}%p %{$fg[cyan]%}$(collapse_pwd) %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 
    RPROMPT='[%F{green}%T%f]%{$reset_color%}'
 
