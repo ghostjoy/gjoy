@@ -1,5 +1,6 @@
 # change your machine name
  MACHINE="semantic"
+ MACHINE="atomia"
 
  function collapse_pwd {
    echo $(pwd | sed -e "s,^$HOME,~,")
