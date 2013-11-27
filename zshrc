@@ -68,3 +68,6 @@ export LESS_TERMCAP_se=$'\E[38;5;231m'
 export LESS_TERMCAP_so=$'\E[38;5;167m'
 export LESS_TERMCAP_ue=$'\E[38;5;231m'
 export LESS_TERMCAP_us=$'\E[38;5;167m'
+
+# git-flow completion
+ source ~/gjoy/git-flow-completion.zsh
