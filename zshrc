@@ -29,7 +29,8 @@ DISABLE_AUTO_UPDATE="true"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-#plugins=(git ruby rails)
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+plugins=(git ruby rails zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
