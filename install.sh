@@ -16,3 +16,4 @@ brew install zsh-syntax-highlighting
 # install xquartz before install powerlinefonts
 brew cask install xquartz
 git clone https://github.com/powerline/fonts ~/gjoy/powerlineFonts
+sh ~/gjoy/powerlineFonts/install.sh
